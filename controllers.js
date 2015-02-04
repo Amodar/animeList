@@ -4,7 +4,7 @@ app.controller("MainCtrl", function($scope, $http) {
 
   console.log('im in controller: MainCtrl');
 
-  $http.get('http://broowse.com/filteredAnime.json').
+  $http.get('http://amodar.github.io/animeList/filteredAnime.json').
   success(function(data, status, headers, config) {
     var tonedDown = [];
     
